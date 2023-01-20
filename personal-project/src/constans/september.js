@@ -1,0 +1,76 @@
+export const september = {
+  food: [
+    { day: "01.09", complexLunch: 160, cookies: 40, card: false, cash: true },
+    {
+      day: "20.09",
+      chocolate: 25,
+      complexLunch: 160,
+      kebab: 80,
+      bread: 18,
+      card: false,
+      cash: true,
+    },
+    { day: "21.09", complexLunch: 160, card: false, cash: true },
+    {
+      day: "22.09",
+      complexLunch: 160,
+      bride: 10,
+      kebab: 80,
+      cookies: 25,
+      card: false,
+      cash: true,
+    },
+    { day: "23.09", complexLunch: 160, bride: 10, card: false, cash: true },
+    { day: "28.09", fruits: 105, card: false, cash: true },
+    {
+      day: "29.09",
+      kebab: { price: 95, card: true },
+      chocolate: 25,
+      card: false,
+      cash: true,
+    },
+    { day: "30.09", kebab: 95, card: false, cash: true },
+  ],
+  health: [
+    { day: "20.09", showerGel: 63, card: false, cash: true },
+    { dat: "21.09", shavingCream: 95, razor: 50, card: false, cash: true },
+  ],
+  road: [
+    { day: "19.09", taxi: 80, card: false, cash: true },
+    { day: "23.09", ticket: 130, card: false, cash: true },
+    { day: "30.09", ticket: 80, card: false, cash: true },
+  ],
+  technique: [{ day: "20.09", earphones: 170, card: false, cash: true }],
+  mobileAccount: [{ day: "25.09", tariff: 120, card: true, cash: false }],
+};
+export const septemberIncome = [
+  { day: "11.09.2022", name: "Salary", value: 10222, card: false, cash: true },
+  {
+    day: "06.09.2022",
+    name: "PassiveIncome",
+    value: 42000,
+    card: true,
+    cash: false,
+  },
+  {
+    day: "28.09.2022",
+    name: "CryptoIncome",
+    value: 500,
+    card: true,
+    cash: false,
+  },
+  {
+    day: "10.09.2022",
+    name: "Freelance",
+    value: 3330,
+    card: true,
+    cash: false,
+  },
+  {
+    day: "15.09.2022",
+    name: "Casino",
+    value: 3330,
+    card: true,
+    cash: false,
+  },
+];

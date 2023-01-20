@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'colors';
+
+@layer components {
+  .main-container {
+    @apply p-[1rem] w-full;
+  }
+
+  .centered-item-btw {
+    @apply justify-between items-center flex;
+  }
+
+  .centered-item-center {
+    @apply justify-center items-center flex;
+  }
+
+  .centered-item-around {
+    @apply justify-around items-center flex;
+  }
+
+  .centered-item-start {
+    @apply justify-start items-center flex;
+  }
+
+  .centered-item-end {
+    @apply justify-end items-center flex;
+  }
+}
